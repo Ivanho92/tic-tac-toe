@@ -22,11 +22,17 @@ body {
     font-size: 15vmin;
 }
 
+.grid:hover {
+    cursor: pointer;
+}
+
 .cell {
     border: white 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 0.8em;
+    line-height: 0.5em;
 }
 
 .cell:after {
